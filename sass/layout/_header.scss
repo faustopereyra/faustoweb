@@ -1,0 +1,40 @@
+.header {
+	height: 110vh;
+
+	background-size: cover;
+	background-position: 100% 50%;
+
+	&__logo-box {
+		position: absolute;
+		top: 6rem;
+		left: 6rem;
+	}
+
+	&__logo {
+		height: 6.5rem;
+	}
+
+	&__text-box {
+		position: absolute;
+		top: 55%;
+		left: 10%;
+		transform: translateY(-50%);
+		text-align: left;
+	}
+
+	&-main {
+		background-image: linear-gradient(
+				rgba($color-black, 0.3),
+				rgba($color-black, 0.3)
+			),
+			url(../img/hero.png);
+	}
+
+	&-contact {
+		background-image: linear-gradient(
+				rgba($color-black, 0.6),
+				rgba($color-black, 0.6)
+			),
+			url(../img/hero-contact.jpg);
+	}
+}

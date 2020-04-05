@@ -1,0 +1,26 @@
+.section-about {
+	margin: 10rem;
+}
+
+.section-servises {
+	background-color: $color-primary;
+	padding: 5rem 0;
+}
+
+.section-proyects {
+	padding: 20rem 0;
+}
+
+.section-offer {
+	background-image: linear-gradient(
+			rgba($color-black, 0.6),
+			rgba($color-black, 0.6)
+		),
+		url(../img/desing.png);
+	height: 80vh;
+	background-size: cover;
+}
+
+.section-media {
+	padding: 20rem 0;
+}
