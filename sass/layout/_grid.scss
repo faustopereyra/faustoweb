@@ -3,6 +3,15 @@
 	margin: 0 auto; // para centrar la onda
 	&:not(:last-child) {
 		margin-bottom: $space-vertical;
+
+		@include respond(tab-port) {
+			margin-bottom: $gutter-vertical-small;
+		}
+	}
+
+	@include respond(tab-port) {
+		max-width: 50rem;
+		padding: 0 3rem;
 	}
 
 	@include clearfix;
@@ -11,6 +20,14 @@
 		float: left;
 		&:not(:last-child) {
 			margin-right: $space-horizontal;
+
+			@include respond(tab-port) {
+				margin-right: 0;
+				margin-bottom: $gutter-vertical-small;
+			}
+		}
+		@include respond(tab-port) {
+			width: 100% !important;
 		}
 	}
 

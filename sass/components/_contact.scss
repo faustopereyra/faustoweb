@@ -1,10 +1,11 @@
 .contact {
-
 	&__box {
 		border: solid 1px $color-black;
 		border-radius: 0.5rem;
 		margin: 10rem;
 		height: 47rem;
+		width: 40rem;
+		margin-right: 0 !important;
 
 		&--content {
 			margin: 5rem 4rem;
